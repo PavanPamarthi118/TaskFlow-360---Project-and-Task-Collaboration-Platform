@@ -3,6 +3,7 @@
 import "./globals.css";
 import { Provider } from "react-redux";
 import { store } from '@/store/store';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function RootLayout({ children }) {
